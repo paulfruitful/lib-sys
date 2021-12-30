@@ -96,9 +96,8 @@ CREATE TABLE `news` (
 --
 
 INSERT INTO `news` (`newsId`, `announcement`) VALUES
-(1, 'Welcome to Our Online Library Management System. You can have access to all our e-books at a really good affordable price!'),
-(6, 'Man don''t dance'),
-(9, 'Created By Paul Fruitful');
+(1, 'Welcome to Our Online Library Management System. You can have access to all our books at a really good affordable price!'),
+(2, 'Created By Paul Fruitful');
 
 -- --------------------------------------------------------
 
