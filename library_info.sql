@@ -1,11 +1,4 @@
--- phpMyAdmin SQL Dump
--- version 4.5.1
--- http://www.phpmyadmin.net
---
--- Host: 127.0.0.1
--- Generation Time: Jul 19, 2018 at 01:31 PM
--- Server version: 10.1.10-MariaDB
--- PHP Version: 7.0.2
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -40,7 +33,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`adminId`, `adminName`, `password`, `username`, `email`, `photo`) VALUES
-(1, 'Nwachi', 'fozzy', '1234', 'fozzyington@gmail.com')
+(1, 'Paul Fruitful', 'Admin', '1234', 'fruitful2007@outlook.com')
 
 
 -- --------------------------------------------------------
@@ -66,9 +59,8 @@ CREATE TABLE `books` (
 --
 
 INSERT INTO `books` (`bookId`, `bookTitle`, `author`, `ISBN`, `bookCopies`, `publisherName`, `available`, `categories`, `callNumber`) VALUES
-(5, 'How to Become a Billionaire', 'James Flitch', '1900-124-3242', '30', 'Robert Muller', 'YES', 'Morals', '0902334'),
-(6, 'Oliver Twist', 'Charles Dickey', '123-423-4-13', '12', 'African Books.Inc', 'YES', 'Fairy Tail', '0216230.'),
-(7, 'Death of a million starts', 'Breakthrough', '123', '3', 'Rexxon', 'YES', '123', '12');
+(1, 'How to Become an Awesome Programmer', 'Paul Fruitful', '1812-134-4562', '30', 'Robert Muller', 'YES', 'Motivation', '08114483062'),
+--You can add more values to this table 
 
 -- --------------------------------------------------------
 
@@ -106,7 +98,7 @@ CREATE TABLE `news` (
 INSERT INTO `news` (`newsId`, `announcement`) VALUES
 (1, 'Welcome to Our Online Library Management System. You can have access to all our e-books at a really good affordable price!'),
 (6, 'Man don''t dance'),
-(9, 'Godfrey Okoye is going Places');
+(9, 'Created By Paul Fruitful');
 
 -- --------------------------------------------------------
 
@@ -133,8 +125,8 @@ CREATE TABLE `students` (
 --
 
 INSERT INTO `students` (`studentId`, `matric_no`, `password`, `username`, `email`, `dept`, `numOfBooks`, `moneyOwed`, `photo`, `phoneNumber`, `name`) VALUES
-(1, 'ADSE-9835', '1234', 'bams', 'fuzzy245.in@gmail.com', 'Software Engineering', 2, '1500', '4477_1526321327.jpeg', '08124579655', 'Nwachinemere Ibeagi'),
-(2, 'ADSE-9835', '1234', 'somty', 'somygee@gmail.com', 'Software Engineering', 2, '1234', '2093_1531223199.jpeg', '08124578966', 'Somtochukwu Ugwu');
+(1, 'BTSA-7826', '1234', 'Dike', 'rita456@getmail.com', 'Software Engineering', 2, '1500', '4477_1526321327.jpeg', '08124579655', 'Destiny Ikechuckwu'),
+(2, 'BTSA-6830', '1234', 'Rader', 'heree@outlook.com', 'Python Development', 2, '1234', '2093_1531223199.jpeg', '08124578966', 'Marvelous Michael');
 
 --
 -- Indexes for dumped tables
