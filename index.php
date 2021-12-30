@@ -101,7 +101,17 @@ require 'includes/db-inc.php';
 	<script type="text/javascript" src="flickity/flickity.js"></script> 
 	
 	<title>Lib-Sys</title>
-
+	<div class="loader"></div>
+	<style>
+		.loader{
+		border:17px solid black;
+			border-radius:50%;
+			border-top:17px solid black;
+			width:120px;
+			height:120px;
+		
+		}
+	</style>
 </head>
 <body>
 <div class="container">
