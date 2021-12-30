@@ -109,7 +109,12 @@ require 'includes/db-inc.php';
 			border-top:17px solid black;
 			width:120px;
 			height:120px;
-		
+		animation:spin 3s linear;
+		}
+		@keyframes spin{
+			0%{transform:0deg;}
+			50%{transform:180deg;}
+			100%{transform:360deg;}
 		}
 	</style>
 </head>
