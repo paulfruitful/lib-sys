@@ -86,11 +86,11 @@ if (isset($_FILES['postimg'])) {
               <?php if(isset($error)===true) { ?>
         <div class="alert alert-success alert-dismissable">
                   <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                  <strong>Record Added Successfully!</strong>
+                  <strong>Account Created Successfully!</strong>
             </div>
             <?php } ?>
         
-            <p class="page-header" style="text-align: center">ADD STUDENTS</p>
+            <p class="page-header" style="text-align: center">Create Account</p>
 
             <div class="container">
                 <form class="form-horizontal" role="form" action="addstudent.php" method="post" enctype="multipart/form-data">
