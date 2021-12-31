@@ -117,6 +117,7 @@ require 'includes/db-inc.php';
 			100%{transform:360deg;}
 		}
 	</style>
+	</div>
 </head>
 <body>
 <div class="container">
